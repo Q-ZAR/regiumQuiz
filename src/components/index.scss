@@ -1,0 +1,42 @@
+.quiz{
+  text-align: center;
+  margin: 20px auto;
+  &__title{
+    font-size: 20px;
+    text-align: center;
+    margin: 40px auto;
+  }
+  &__answer{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #d9deff;
+    color: #2c2c2c;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover{
+      background: #d3d0ff;
+    }
+    &--right{
+      background: #519b45 !important;
+      color: #ffffff;
+    }
+    &--wrong{
+      background: #9b374a !important;
+      color: #ffffff;
+    }
+  }
+  &__text{
+    color: #0d0055;
+    font-size: 25px;
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
